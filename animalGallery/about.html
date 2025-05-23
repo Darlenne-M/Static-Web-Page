@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,25 +12,52 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS.css">
 </head>
+
 <body>
-   
-    <nav class="navbar navbar-expand-lg" style="background-color: rgb(240, 192, 255);">
-      
-            <div class="container-fluid">
-               
-                <a class="navbar-brand" href="#">Animal Gallery</a>
-        
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html"><button>Home</button> </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><button>Adopt</button></a>
-                    </li>
-                </ul>
+
+
+    <div class="card text-bg-dark">
+        <img src="images/contactPage.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><button>Home</button> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><button>Contact Us</button></a>
+                </li>
+            </ul>
+            <h5 class="card-title">Get in contact with us</h5>
+            <p class="card-text">Contact us by phone or fill out the form below to email us.</p>
+
+            <form>
+                First name:<br>
+                <input type="text" name="firstname"> <br>
+                Last name:<br>
+                <input type="text" name="lastname"><br>
+                Phone number:<br>
+                <input type="text" name="lastname">
+            </form>
+
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-         </div>
-    </nav>
-    <p> about</p>
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Describe below why your contacting
+                    us.</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><button>Submit</button> </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
 </body>
+
 </html>
